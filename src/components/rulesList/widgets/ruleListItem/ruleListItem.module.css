@@ -1,0 +1,28 @@
+.titleAndActionsContainer {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+}
+.ruleActions > span {
+  margin-right: 0.5em;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.ruleActions > span:hover {
+  font-weight: 500;
+}
+
+.ruleItemEven {
+  background: #EEF7EE;
+}
+
+.ruleItemOdd {
+  background: #fff;
+}
+
+.ruleItem:first-of-type .ruleActions span[data-action=MOVE_UP],
+.ruleItem:last-of-type .ruleActions span[data-action=MOVE_DOWN]{
+  color: #888888;
+  pointer-events: none;
+}
