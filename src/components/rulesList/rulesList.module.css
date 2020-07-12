@@ -1,0 +1,13 @@
+.rulesList {
+  border: 1px solid lightgray;
+  padding: 1rem;
+}
+
+.ruleItemEven {
+  background: #EEF7EE;
+}
+
+.ruleItemOdd {
+  background: #fff;
+}
+
